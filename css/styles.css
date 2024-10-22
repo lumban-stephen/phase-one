@@ -229,22 +229,22 @@ a {
     padding: 30px;
     border-radius: 16px;
     height: 634px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .blue-card {
     background-color: #043873;
-    margin-right: 20px;
-    padding: 30px;
+    padding: 0 30px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     height: 761px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-right: 20px;
 }
 
-.blue-card .price-text, .price {
-    margin: 10px 0;
-}
 
 .blue-card p {
     color: white;
@@ -268,10 +268,6 @@ a {
     font-size: 24px;
 }
 
-.white-card p {
-    margin: 20px auto;
-}
-
 .price {
     font-weight: bold;
     font-size: 36px;
@@ -281,4 +277,13 @@ a {
     display: flex;
     justify-content: space-between;
     
+}
+
+.white-card a {
+    background-color: #fff;
+    padding: 16px 40px;
+    border: solid #FFE492 1px;
+    border-radius: 16px;
+    align-self: flex-start;
+    color: black;
 }
