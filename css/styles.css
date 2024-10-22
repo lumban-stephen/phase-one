@@ -56,6 +56,7 @@ a {
     background-color: #4F9CF9;
     padding: 16px 40px;
     border-radius: 8px;
+    align-self: flex-start;
 }
 
 .blue-btn img {
@@ -71,7 +72,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 .hero-text {
@@ -99,4 +100,185 @@ a {
     font-size: 18px;
     font-family: "Inter";
     margin: 15px;
+}
+
+.xl-container {
+    height: 150vh;
+    background-color: #Fff;
+    background-image: url(../assets/BACKGROUND.png);
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.xl-container h1 {
+    font-size: 72px;
+    width: 50%;
+}
+
+.xl-container p {
+    margin: 25px auto;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.headline-m {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: 40%;
+}
+
+.headline h1 {
+    margin: 0;
+}
+
+.white-h1 {
+    color: white;
+    font-size: 72px;
+}
+
+.headline:last-child {
+    margin: 40px;
+}
+
+.headline .btn {
+    display: block;
+}
+
+.headline p {
+    margin: 10px;
+}
+
+.content {
+    max-width: 1480px;
+    max-height: 547px;
+    display: flex;
+    align-items: center;
+}
+
+.xs-container-blue{
+    background-color: #043873;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.xs-container-blue p{
+    color: #Fff;
+    margin: 20px;
+}
+
+.xs-container-white{
+    height: 75vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.xs-container-white img{
+    max-width: 600px;
+    margin-right: 80px;
+}
+
+.black-h1 {
+    color: black;
+    font-size: 72px;
+}
+
+.headline-m p {
+    margin: 20px 0;
+}
+
+.container-gray {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.plan-header h1 {
+    font-size: 72px;
+}
+
+.white-card {
+    border: solid  2px;
+    border-color:  #FFE492 ;
+    background-color: white;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    height: 634px;
+}
+
+.blue-card {
+    background-color: #043873;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 761px;
+    justify-content: space-evenly;
+}
+
+.blue-card .price-text, .price {
+    margin: 10px 0;
+}
+
+.blue-card p {
+    color: white;
+}
+
+.blue-card ul {
+    color: white;
+    list-style-type: none;
+}
+.blue-card .price {
+    color: #FFE492;
+    list-style-type: none;
+}
+
+.white-card ul {
+    list-style-type: none;
+}
+
+.price-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.white-card p {
+    margin: 20px auto;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: space-between;
+    
 }
