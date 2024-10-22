@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "DM Sans";
+    background-color: #043873;
+}
+
+.navbar {
+    display: flex;
+    margin-inline: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.yellow-btn {
+    background-color: #FFE492;
+    padding: 16px 40px;
+    border-radius: 8px;
+}
+
+.btn {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar .yellow-btn {
+    color: black;
+}
+
+.blue-btn {
+    background-color: #4F9CF9;
+    padding: 16px 40px;
+    border-radius: 8px;
+}
+
+.blue-btn img {
+    background-color: transparent;
+}
+
+.w-bg {
+    background-image: url(../assets/background-svg.svg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.hero-text {
+    width: 656px;
+    height: 361px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.container h1 {
+    color: #fff;
+    size: 64px;
+    display: block;
+    font-weight: 600;
+    font-family: "Inter";
+    margin: 15px;
+}
+
+.container p {
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+    font-family: "Inter";
+    margin: 15px;
+}
